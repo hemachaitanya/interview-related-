@@ -34,3 +34,20 @@ then it's shows the information about all files details
 * the AWS member said that in pod size cahnge the (increase ) upper and lower limmits 
 * after that pod will sucessfully move into the new version
 
+### terraform
+[1] locking error
+[2]statefile upload to s3 
+[3]aws configuration error because of expairing key
+
+
+
+#### docker 
+
+[1] docker image pull and push 
+[2] volumes problems
+
+#### k8s
+
+### git hub 
+[1]fetching errors
+
