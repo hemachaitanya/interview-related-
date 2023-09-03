@@ -1,4 +1,5 @@
 ---
+...
 ### how to connect ec2 instance 
 for ec2 instance will be connected in 2 ways 
 
@@ -31,5 +32,5 @@ then it's shows the information about all files details
 * 1.27-1.28
 * in this project  you have on problem that's one pod in node is note supports to change the vesioning then we communicate with the AWS 
 * the AWS member said that in pod size cahnge the (increase ) upper and lower limmits 
-* after that pod will sucessfully move into the new version 
+* after that pod will sucessfully move into the new version
 
