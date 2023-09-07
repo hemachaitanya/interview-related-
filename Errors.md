@@ -37,7 +37,12 @@ then it's shows the information about all files details
 ### terraform
 [1] locking error
 [2]statefile upload to s3 
-[3]aws configuration error because of expairing key
+[3]aws configuration error because of expiring key
+[4] you have more than 15 instances in one template , you want to destroy only one perticular instance 
+   
+
+   * terraform  rm <resource-type.resource-name>
+   * terraform destroy <"resource-type.resouce-name">
 
 
 
@@ -50,4 +55,20 @@ then it's shows the information about all files details
 
 ### git hub 
 [1]fetching errors
+[2] give some permissions to one person 
+
+    * goto settings 
+    * choose accessories
+    * 
+
+
+### jenkins
+
+* build one package using freestyle
+
+* form one artifact , these  artifactpush to JFROG
+
+* the reason is SSL certificate issue[then create ssl certificate and push into jfrog]
+
+* 
 
