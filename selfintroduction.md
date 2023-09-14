@@ -129,6 +129,8 @@ personal life very  happily
 * Setting  up  local  test  environments  if  required  on  the  engineers  machine  using  Vagrant and VirtualBox
 
 * Automation   of      the   compilation,   continuous   integration,   testing,   packaging,   and distribution of software
+  
+#### respontibilities
 
 * Setting up and maintaining monitoring & alert systems for serversWorking  with  various  cross-functional  engineering  specialists,  project  managers  and application development teams to define and implement a cloud-based hosting solution.
 
