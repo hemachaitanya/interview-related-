@@ -54,13 +54,34 @@
 
  * we have differeent brances for develop, testing and production releases . Our branching stategy we use is inspired from got flow brancing stratagy .
 
- * we have configred jenins to monitor git repositories for changes . we haveset up the automated builds triggerred by code commits and webhooks .
+ * we have configred jenkins to monitor git repositories for changes . we haveset up the automated builds triggerred by code commits and webhooks .
 
  * Implimented unit tests & code quality checks as part of the CI pipeline . for scaning the source code and , wehave used static source  code analysis tools like sonarqube scanner and trvy.
 
  * we have written docker files for each microservices and we build the docker images . docker images were scanned to check the vulnerabilities using trivy & OWASCP dependency check is used t scan dependencies for known vulnerabilities .
 
- * after scanning the image pushed to container registries 
+ * after scanning the image pushed to container registries  (ECR)
+
+ * NEXT , We have setup ks cluster by using terraform to manage the deployment of microservices .we have written Deployment files and service files for each microservices , where-in we define how the applications shud run inside the k8s cluster , including the desired state , replicas and other specifications of health probes , cpu and memory and restart polcies .
+
+ * integrated promethes and graphana for monitoring the health and performance of microservices and infrastructure .
+
+ * implimanted regular automated backups of databases(mysqqldump) , auto-scalling confgurations for micro services based on traffic patterns , implimenting aws IAM role and policies to ensure least privilege access for users .
+
+ * Integrated jenkins ith k8s to automatically deloy new container images to the cluster . in my organization we used rllingupdates .
+
+ * i worked with cros functional teams including developers , qa engineers and system administrators .fostering a culture of knowledge sharing .
+
+ * we worked on diferent env like 
+        dev
+        FIT (functional intigration testing)
+        IAT (integration aceptance test )
+        UAT (user acceptance test)
+        IPE (integration performance environment)
+
+* incase we required the new services or new issues we will provisioning and install . we patching the packages of OS 
+
+* we will support to the developers we give the tool access like bit bucket and jenkins access . incase create any new environment we will do.
 
 ## kubernetes
 
