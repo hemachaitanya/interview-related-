@@ -20,7 +20,47 @@
 
 * you have any offer lettes = yes i have 1 offer letter 8LPA [syabatic , madhapur , ayyappa socity , hyd]
 
-* 
+## INTRODUCTION
+
+* My self hemalatha Bijam, i am from ongole , i Completed my mtech in 2019 at QIS college of engineering and technology.
+
+* Over the past 4 years i worked with divers teams , Heling them streamline there software development process , by leveraging tools like git , jenkins , terraform , docker, azuredevops and kubernetes.
+
+* i worked with aws services like ec2 , kms, elb , RDS and s3 buckts.
+
+* as a devops engineer , i have designed , implimented and manage ci/cd pipeline by using azure devops and jenkins. CI/CD  automates the build , test and deployment process resulting in faster and more reliable software releases.
+
+* I write the dockerfiles for package the applications and there dependencies by using docker files we write the docker images that images were pushed to container registries like ECR  in aws.
+
+* I have played a key role in container orchistration and management by using k8s , enabling teams to efficiently deploy and scale our applications.
+
+* I have been involved IAC by using TF , allowing for Provisioning and management of resources in Declarative and version controle manner.  we define entire Infrasructure stack including servers , databases and networking in a terraform configuration files .
+
+* I starting (previous) days i worked on linux commands to change the permissions for files , users  and groups . to set the environment paths to programming languages for application dependent packages and check the cpu and memory utlization .
+
+* ater that i assigned to the CI/CD project . in these project we used some pluggings for configuration and package installations.
+
+* Incase any build issues during the build time i will check the jenkins logs  based on issue i will informed to respected tems (developes issues or QA platform )  we will debug the issues .
+
+* comming to my project is 
+
+ CONTINUOUS DEPLOMENT OF MICROSERVICES BASED ON WEB APPLICATIONS 
+
+ * in this project our main focus was to automate the CI/CD pipeline and the application consistes of multiple services includes front end , back end and db .
+
+ * the main goal of this project is to achive ci/cd  leaveraging a combination of tools like github, jenkins , docker , sonarqube , nexus , ecr , owascp dependency check , terraform and kubernetes
+
+ * So , for this project we used Distributed version controle system that is git as virsion controle and we had set up a git repo to store the source code of each micro services .
+
+ * we have differeent brances for develop, testing and production releases . Our branching stategy we use is inspired from got flow brancing stratagy .
+
+ * we have configred jenins to monitor git repositories for changes . we haveset up the automated builds triggerred by code commits and webhooks .
+
+ * Implimented unit tests & code quality checks as part of the CI pipeline . for scaning the source code and , wehave used static source  code analysis tools like sonarqube scanner and trvy.
+
+ * we have written docker files for each microservices and we build the docker images . docker images were scanned to check the vulnerabilities using trivy & OWASCP dependency check is used t scan dependencies for known vulnerabilities .
+
+ * after scanning the image pushed to container registries 
 
 ## kubernetes
 
