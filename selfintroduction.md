@@ -40,6 +40,8 @@
 * currently i am working as a devops engineer as configuration management and build management from past 2 years on infinity computer solutions.
 
 * troughout my career i had opertunity to work on devops projects .
+  
+* multi-stage pipeline is a type of pipeline in a continuous integration/continuous delivery (CI/CD) process that is split into multiple stages. Each stage represents a different step in the pipeline, such as building, testing, and deploying the application.
 
 * as a devops engineer i am responsible for  ci/cd , development , deployment and maintainence of cloud based applications .
 
