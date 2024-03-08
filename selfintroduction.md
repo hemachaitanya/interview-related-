@@ -40,6 +40,8 @@
 * currently i am working as a devops engineer as configuration management and build management from past 2 years on infinity computer solutions.
 
 * troughout my career i had opertunity to work on devops projects .
+  
+* multi-stage pipeline is a type of pipeline in a continuous integration/continuous delivery (CI/CD) process that is split into multiple stages. Each stage represents a different step in the pipeline, such as building, testing, and deploying the application.
 
 * as a devops engineer i am responsible for  ci/cd , development , deployment and maintainence of cloud based applications .
 
@@ -129,6 +131,8 @@ personal life very  happily
 * Setting  up  local  test  environments  if  required  on  the  engineers  machine  using  Vagrant and VirtualBox
 
 * Automation   of      the   compilation,   continuous   integration,   testing,   packaging,   and distribution of software
+  
+#### respontibilities
 
 * Setting up and maintaining monitoring & alert systems for serversWorking  with  various  cross-functional  engineering  specialists,  project  managers  and application development teams to define and implement a cloud-based hosting solution.
 
