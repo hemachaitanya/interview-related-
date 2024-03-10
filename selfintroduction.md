@@ -198,8 +198,18 @@ personal life very  happily
             * cat /etc/gshadow
         
         gpasswd -a <username> <groupname>
-        
+
+        id <username>
+
+        groups <username>
+
         usermod -aG <groupname> <username>
+
+        chmod +rwx <file (or) directory>
+
+        chmod 777(exicute=1;write=2;read=4) <directory or file>
+
+
 
 
 
