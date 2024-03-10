@@ -211,8 +211,13 @@ personal life very  happily
 
         getfacl <filename>    {apt update && apt install acl -y}
 
-# EXPORT ENVIRONMENTAL PATHS FOR PROGRAMMING LANGUAGES
+        hostname
+        hostmname -i
+        hostnamectl set-hostname <new-hostname>
+        echo "sudo reboot" >> /etc/hosts (or) /etc/hostname
 
+# EXPORT ENVIRONMENTAL PATHS FOR PROGRAMMING LANGUAGES
+## JAVA
 
 * export "JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-adm64"
 
@@ -221,6 +226,14 @@ personal life very  happily
 * vi /etc/environment (or) vi ~/.bashrc
 
 * source /etc/envionment (or) source ~/.bashrc
+
+## MAVEN
+
+*  echo "export "PATH=/usr/share/maven/apache-maven-3.9.6/bin:$PATH"" >> ~/.baashrc
+
+
+
+
 
 
 
