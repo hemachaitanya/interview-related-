@@ -185,4 +185,22 @@ personal life very  happily
 
 ## CAT /PROC/CPUINFO
 
+# CHANGE PERMISSIONS FOR  FILES& ADD USER AND GROUP
+
+        adduser <username>
+
+            * cat /etc/passwd
+            * cat /etc/shadow
+
+        groupadd <groupname>
+
+            * cat /etc/group
+            * cat /etc/gshadow
+        
+        gpasswd -a <username> <groupname>
+        
+        usermod -aG <groupname> <username>
+
+
+
 
