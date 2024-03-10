@@ -209,6 +209,8 @@ personal life very  happily
 
         chmod 777(exicute=1;write=2;read=4) <directory or file>
 
+        getfacl <filename>    {apt update && apt install acl -y}
+
 
 
 
