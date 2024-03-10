@@ -211,6 +211,19 @@ personal life very  happily
 
         getfacl <filename>    {apt update && apt install acl -y}
 
+# EXPORT ENVIRONMENTAL PATHS FOR PROGRAMMING LANGUAGES
+
+
+* export "JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-adm64"
+
+* export "PATH=$JAVA_HOME/bin:$PATH"
+
+* vi /etc/environment (or) vi ~/.bashrc
+
+* source /etc/envionment (or) source ~/.bashrc
+
+
+
 
 
 
