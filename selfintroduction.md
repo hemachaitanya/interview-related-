@@ -145,3 +145,100 @@ personal life very  happily
 * Reviewing the technical architecture requirements to assess the DevOps Activities
 
 * Migration of     shell-scripts for deployments and     environment     creations     to Chef/Puppet/Ansible
+
+
+
+# CPU AND MEMORY UTILIZATION
+
+## TOP
+
+* top: The top command displays real-time information about system processes, including CPU and memory usage
+
+## HTOP
+
+* htop: Similar to top, htop provides an interactive process viewer that also displays CPU and memory usage.
+
+
+## UPTIME
+
+* uptime: The uptime command provides a snapshot of the system's load average and how long the system has been running since the last reboot
+
+## FREE
+
+* the amount of free and used memory in the system, including buffers and caches. Running free -h
+
+## VMSTAT
+
+* vmstat command reports information about processes, memory, paging, block IO, traps, and CPU activity
+
+## SAR
+
+* sar: The sar command (System Activity Reporter)
+
+## PS
+
+* ps: The ps command can be used to list currently running processes.
+
+* ps aux | grep
+
+## CAT /PROC/MEMINFO
+
+## CAT /PROC/CPUINFO
+
+# CHANGE PERMISSIONS FOR  FILES& ADD USER AND GROUP
+
+        adduser <username>
+
+            * cat /etc/passwd
+            * cat /etc/shadow
+
+        groupadd <groupname>
+
+            * cat /etc/group
+            * cat /etc/gshadow
+        
+        gpasswd -a <username> <groupname>
+
+        id <username>
+
+        groups <username>
+
+        usermod -aG <groupname> <username>
+
+        chmod +rwx <file (or) directory>
+
+        chmod 777(exicute=1;write=2;read=4) <directory or file>
+
+        getfacl <filename>    {apt update && apt install acl -y}
+
+        hostname
+        hostmname -i
+        hostnamectl set-hostname <new-hostname>
+        echo "sudo reboot" >> /etc/hosts (or) /etc/hostname
+
+# EXPORT ENVIRONMENTAL PATHS FOR PROGRAMMING LANGUAGES
+## JAVA
+
+* export "JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-adm64"
+
+* export "PATH=$JAVA_HOME/bin:$PATH"
+
+* vi /etc/environment (or) vi ~/.bashrc
+
+* source /etc/envionment (or) source ~/.bashrc
+
+## MAVEN
+
+*  echo "export "PATH=/usr/share/maven/apache-maven-3.9.6/bin:$PATH"" >> ~/.baashrc
+
+
+
+
+
+
+
+
+
+
+
+
