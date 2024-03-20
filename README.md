@@ -26,7 +26,7 @@
 
 * Over the past 4 years i worked with divers teams , Heling them streamline there software development process , by leveraging tools like git , jenkins , terraform , docker, azuredevops and kubernetes.
 
-* i worked with aws services like ec2 , kms, elb , RDS and s3 buckts.
+* i worked with aws services like ec2 , kms, elb , RDS and s3 buckts, cloud watch and sns.
 
 * as a devops engineer , i have designed , implimented and manage ci/cd pipeline by using azure devops and jenkins. CI/CD  automates the build , test and deployment process resulting in faster and more reliable software releases.
 
@@ -70,18 +70,54 @@
 
  * Integrated jenkins ith k8s to automatically deloy new container images to the cluster . in my organization we used rllingupdates .
 
- * i worked with cros functional teams including developers , qa engineers and system administrators .fostering a culture of knowledge sharing .
+ * i worked with cross functional teams including developers , qa engineers and system administrators .fostering a culture of trasperancy and  knowledge sharing .
 
- * we worked on diferent env like 
+ * we worked on diferent env like
+
         dev
+
         FIT (functional intigration testing)
+
         IAT (integration aceptance test )
+
         UAT (user acceptance test)
+
         IPE (integration performance environment)
+* 
 
 * incase we required the new services or new issues we will provisioning and install . we patching the packages of OS 
 
 * we will support to the developers we give the tool access like bit bucket and jenkins access . incase create any new environment we will do.
+
+### SONARQUBE integrated with azure devops
+
+integrated sonarqube with azuredevops [link-text](https://www.coachdevops.com/2023/02/how-to-integrate-sonarqube-with-azure.html)
+
+
+### HELM 
+
+how o install helm and we get some default folders 
+
+helm [link-text]()
+
+### complete CI/CD project
+
+completeci/cd project for netflix [link-text](https://mrcloudbook.hashnode.dev/devsecops-netflix-clone-ci-cd-with-monitoring-email)
+
+### ARGO-CD
+
+argo cd is usedfor automatic  deployments will be changes when we change any value in manifest we cannpt run "kubectl apply -f <file.yaml>" , and argocd shows graphical reprasentation of deployment also 
+
+argo-cd [link-text](https://mrcloudbook.hashnode.dev/devsecops-netflix-clone-ci-cd-with-monitoring-email)
+
+
+
+### pull request (PR)
+
+how to send PR [link-text](https://mreigen.medium.com/integrate-jenkins-builds-into-github-pull-requests-33bc053d6210)
+
+medium [link-text](https://mreigen.medium.com/integrate-jenkins-builds-into-github-pull-requests-33bc053d6210)
+
 
 ## kubernetes
 
