@@ -116,7 +116,7 @@ argo-cd [link-text](https://mrcloudbook.hashnode.dev/devsecops-netflix-clone-ci-
 
 how to send PR [link-text](https://mreigen.medium.com/integrate-jenkins-builds-into-github-pull-requests-33bc053d6210)
 
-medium [link-text](https://mreigen.medium.com/integrate-jenkins-builds-into-github-pull-requests-33bc053d6210)
+medium [link-text](https://mreigen.medium.com/integrate-jenkins-builds-into-github-pull-requests-33bc053d6210l)
 
 
 ## kubernetes

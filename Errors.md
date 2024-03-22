@@ -11,7 +11,7 @@ for ec2 instance will be connected in 2 ways
 
 * in docker container first we check the cpu utilization 
 ```
-dh -h
+df -h
 ```
 * for cpu is 100% utilized then we call to the user and ask which files is usless
 * he don't have any idea then you go to /var/lib/docker.socket 
