@@ -53,6 +53,40 @@ then it's shows the information about all files details
 
 #### k8s
 
+* upstream connect error (or) disconnect , reset before header error
+
+* ssl/tls errors when our sertificates will be expiered
+
+    certificates scanner we use to findout the error .
+
+    re-create the certificates 
+
+*  update cluster will be updated time 
+
+   kubectl get nodes
+
+   kubectl get po -owide
+
+   kubectl describe pod <pod name>
+
+   kubectl logs <pod name>
+
+   * you are upgrades --you should checks the release nodes .., there might be API changes, deprecations or deletions , your application might not be work
+
+* kubectl get nodes 
+
+    * error prom serverside : forbidden : sso autherization (permissions are not set) issues .
+
+    * we need to request the permissions to the admin
+
+* kubectl get po (in defalut namespace we cannot check the pods and actions based on autherization is not set ,,,, this also shows forbidden issue)
+
+* error: from server : error dailing backend : dail tcp 196.33.0.2:2300 i/o timeout
+ ALB load balancer is unhealthy or unreacheble . at that time we need to cloud provider and we get all the details for why is it unhealthy and why it is unreahable .
+
+
+
+
 ### git hub 
 [1]fetching errors
 [2] give some permissions to one person 
