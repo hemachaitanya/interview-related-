@@ -118,6 +118,11 @@ how to send PR [link-text](https://mreigen.medium.com/integrate-jenkins-builds-i
 
 medium [link-text](https://mreigen.medium.com/integrate-jenkins-builds-into-github-pull-requests-33bc053d6210l)
 
+### eks integrates with prometheous and graaphana
+
+[refer here](https://app.slack.com/client/T01UPFQ4346/D057CHMGRHS?cdn_fallback=1)
+
+
 
 ## kubernetes
 
