@@ -79,3 +79,9 @@ after scanning the image pushed to container registries (ECR)
 * in case any build issues during build time i will check the jenkins logs based on that isssue i will informed to respected team (it's a developer issue or qa team platform issue we will debug the issues)
 
 
+### k8s errors 
+
+[refererror link](https://directdevops.blog/2023/10/03/completek8s-classroomnotes-03-oct-2023/)
+
+
+
