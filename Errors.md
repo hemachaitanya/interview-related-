@@ -85,6 +85,33 @@ then it's shows the information about all files details
  ALB load balancer is unhealthy or unreacheble . at that time we need to cloud provider and we get all the details for why is it unhealthy and why it is unreahable .
 
 
+[linkfor trouble shooting](https://directdevops.blog/2023/10/03/completek8s-classroomnotes-03-oct-2023/)
+
+* CreateContainerConfigError:
+
+This is result of a missing secret or config map
+
+* CrashLoopBackoff:
+
+This issued is due to pod not scheduled on node which can happen due to
+
+        insufficient resources
+
+        pod did not succeed in mounting volumes
+
+        hostPort
+
+
+* ErrImagePull or ImagePullBackOff:
+
+This is result of failure occured as the image couldnot be pulled from registry
+
+* Node not Ready
+
+
+
+
+
 
 
 ### git hub 
@@ -102,7 +129,7 @@ then it's shows the information about all files details
 
 * form one artifact , these  artifactpush to JFROG
 
-* the reason is SSL certificate issue[then create ssl certificate and push into jfrog]
+* the reason is SSL (secure socker layer) certificate issue[then create ssl certificate and push into jfrog]
 
 * 
 

@@ -37,7 +37,7 @@
 
 * myself hemalatha bijjam from ongole ; prakasham district
 
-* currently i am working as a devops engineer as configuration management and build management from past 2 years on infinity computer solutions.
+* currently i am working as a devops engineer as configuration management and build management from past 2 years on C L  InfoTech.
 
 * troughout my career i had opertunity to work on devops projects .
   
@@ -217,6 +217,7 @@ personal life very  happily
         echo "sudo reboot" >> /etc/hosts (or) /etc/hostname
 
 # EXPORT ENVIRONMENTAL PATHS FOR PROGRAMMING LANGUAGES
+
 ## JAVA
 
 * export "JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-adm64"
