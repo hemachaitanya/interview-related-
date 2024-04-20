@@ -1,5 +1,60 @@
 # interview-related
 
+what ids shared vpc differance between the vpc peering and shared vpcs in GCP
+
+explain the shared libraries
+
+are u integrated prometheuos and graphana to cloud watch
+
+how to convert public subnet to private subnet(endpoints)
+
+what is the  difference between node affinity and node  selector
+
+incase we want to attach single EBS to multiple instances what we do(nfs)
+
+how to make the public subnet in to the private subnets
+
+how to access s3 bucket data in private subnet 
+
+pvc access modes(readwrite)
+
+azure gates in azure devops
+
+api types
+
+kubernetes you have 4 nodes ,1-10gb ,2-15gb,3-20gb,5=4-25gb , pod containes application have 1gb by default which node attach the pod.
+
+
+what is sidecar container
+
+terraform  u have create 10 resources then how can you know all the created resources
+
+what is init container , in case init is fails application container 
+
+azure service account
+
+what is the differance between the storage buckert policy and iam policy
+
+snapshot and image
+
+one EBS whith 10 gb attached to the one ec2 instance , to increase the size of the ebs how 
+
+with out variables , we cannot edit the file but one name will be repaced with hema how can you do that 
+
+cpu memory utilization commands
+
+promitheous also integrated with  graphana?
+
+
+
+last 10 commands for log file how u check those 
+
+how to change version of depende package (ex: java 8 to java 15)
+
+how you can check the logs last 10
+
+how you change the 
+
 * this is hema = yes i am hemalatha bijjam
 
 * are you chang , looking for job = yes
@@ -9,6 +64,10 @@
 * relavant experiance on devops = 3.5 years
 
 * points/rating
+* command to create image from container
+
+* terraform taint and null resource and back end provisioners
+* 
 
 * client company , payrole company
 
