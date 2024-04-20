@@ -232,6 +232,12 @@ personal life very  happily
 
 *  echo "export "PATH=/usr/share/maven/apache-maven-3.9.6/bin:$PATH"" >> ~/.baashrc
 
+  ### how to get private ip : hostname -i
+  #### public ip : curl ifconfig.me (or ) wget -qO- ifconfig.me
+
+
+
+
 
 
 
