@@ -33,15 +33,15 @@ what is sidecar container
 
 with out internet are u creating the docker images (proxy server , save and load the dependency images previously)
 
-with out cpu , memory metrics any other possibility do u have in the autoscalling process . 
+ ### with out cpu , memory metrics any other possibility do u have in the autoscalling process . 
 
-  # (Request Queue Length: Monitor the length of request queues or message queues in your application)
+ (Request Queue Length: Monitor the length of request queues or message queues in your application)
 
 every time developer pushes the code to git repo , builds will be triggers or peerticular times only it will be trigger , every time artifacts will be generates and pushes to nexus repo or not 
 
 all env same pipeline will be running or defferent  jobs r pipelines were running?
 
-# how to create  and set different environments step by step
+#### how to create  and set different environments step by step
 
      Step 1: Install and Configure Jenkins
 Install Jenkins on your server or local machine by following the official installation guide for your operating system.
