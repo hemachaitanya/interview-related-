@@ -31,6 +31,66 @@ kubernetes you have 4 nodes ,1-10gb ,2-15gb,3-20gb,5=4-25gb , pod containes appl
 
 what is sidecar container
 
+with out internet are u creating the docker images (proxy server , save and load the dependency images previously)
+
+with out cpu , memory metrics any other possibility do u have in the autoscalling process . 
+
+  # (Request Queue Length: Monitor the length of request queues or message queues in your application)
+
+every time developer pushes the code to git repo , builds will be triggers or peerticular times only it will be trigger , every time artifacts will be generates and pushes to nexus repo or not 
+
+all env same pipeline will be running or defferent  jobs r pipelines were running?
+
+# how to create  and set different environments step by step
+
+     Step 1: Install and Configure Jenkins
+Install Jenkins on your server or local machine by following the official installation guide for your operating system.
+Access the Jenkins web interface and complete the initial setup, including creating an admin user and installing necessary plugins.
+
+Step 2: Set Up Version Control Integration
+
+   Connect Jenkins to your version control system (e.g., Git) by installing the appropriate plugins (e.g., Git Plugin) if not already installed.
+Configure Jenkins to access your version control repository and set up credentials if required.
+
+    Step 3: Create Jenkins Jobs for Each Environment
+    
+Navigate to the Jenkins dashboard and click on "New Item" to create a new Jenkins job.
+Give the job a meaningful name (e.g., "Deploy to Development").
+Choose the type of job you want to create (e.g., Freestyle project or Pipeline).
+
+    Step 4: Configure Job Build Steps
+    
+Freestyle Project:
+In the job configuration, define build steps to deploy the application to the target environment.
+Use build triggers (e.g., Git webhook or periodic build) to trigger the job when changes are pushed to the repository or on a schedule.
+Pipeline:
+Write a Jenkinsfile defining the deployment pipeline stages, including stages for building, testing, and deploying the application to different environments.
+Configure pipeline options such as agent, environment variables, and post-build actions within the Jenkinsfile.
+   
+   Step 5: Configure Deployment Environments
+   
+Define environment-specific configurations (e.g., server addresses, credentials) as environment variables or parameters within Jenkins.
+Utilize Jenkins credentials plugin to securely manage sensitive information such as passwords and API tokens.
+    
+    Step 6: Set Up Build Triggers
+    
+Configure build triggers to automatically start the deployment process when changes are detected in the version control system.
+Optionally, configure manual triggers or approval steps for deploying to production or sensitive environments.
+    
+    Step 7: Test and Validate
+    
+Test the Jenkins job or pipeline by triggering a build and verifying that the application is deployed correctly to the specified environment.
+Validate the deployment process for each environment, ensuring consistency and reliability.
+   
+   Step 8: Repeat for Additional Environments
+   
+Repeat the above steps to create Jenkins jobs or pipelines for each additional environment (e.g., testing, staging, production).
+Customize job configurations and deployment scripts as necessary for each environment, considering specific requirements and constraints.
+By following this step-by-step process, you can create and set up different environments in Jenkins for deploying applications, enabling automated and consistent deployment workflows across development, testing, staging, and production environments.
+
+ 
+
+
 terraform  u have create 10 resources then how can you know all the created resources
 
 what is init container , in case init is fails application container 
