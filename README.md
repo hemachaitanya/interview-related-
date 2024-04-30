@@ -4,6 +4,18 @@ https://resume.io/?ga_utm_source=bing&utm_adgroup=IN.PK.-resume-generic&utm_cust
 
 # interview-related
 
+### terraform valut mechanisum
+### what's the clousers in groovy
+
+### what's the jira conben technology
+##  whats the docker image build commands 
+
+## nexus and promitheus , graphana tools learn breafly 
+
+### shaed library
+
+### 
+
 what ids shared vpc differance between the vpc peering and shared vpcs in GCP
 
 explain the shared libraries
