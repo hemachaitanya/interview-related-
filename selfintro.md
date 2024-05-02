@@ -16,9 +16,10 @@
 
 * I starting (previous) days i worked on linux commands to change the permissions for files , users and groups . to set the environment paths to programming languages for application dependent packages and check the cpu and memory utlization .
 
-* ater that i assigned to the CI/CD project . in these project we used some pluggings for configuration and package installations.
+* after that i assigned to the CI/CD project . in these project we used some pluggings for configuration and package installations.
 
 * Incase any build issues during the build time i will check the jenkins logs based on issue i will informed to respected teams (developes issues or QA platform ) we will debug the issues .
+* 
 
 * comming to my project is
 
@@ -36,11 +37,21 @@
 
 * Implimented unit tests & code quality checks as part of the CI pipeline . for scaning the source code and , wehave used static source code analysis tools like sonarqube scanner and trivy.
 
+* we need to manage the user permissions in the git repository , for which users need to give which permissions for some users we give read and write access and for some users we give only read access , this information we get from the DEVELOPMENT TEAM manager or Development team lead.
+
+* sonarqube we are going to use to perform code review as a devops engineer we need to setup QUALITY PROFILES & QUALITY GATES to perform code review and we need to check the code quality and we send the code quality report to the development team.
+
+* software artifacts produced during the development process. Once we build a Maven package, which typically results in a JAR or WAR file, my responsibility is to ensure that these artifacts are securely stored and easily accessible for future use. To achieve this, we utilize Nexus, a repository manager, where I organize the artifacts into a Grouped Repository. This allows us to centralize our artifact management and provide a single source of truth for our development teams. By storing artifacts in Nexus,we can easily retrieve the artifact when we needed .
+
+* we need to create a remort repository to maintaine shared libraries . Development team will give the shared libraries to us we need to upload those shared libraries into nexus or jfrog repository .
+
 * we have written docker files for each microservices and we build the docker images . docker images were scanned to check the vulnerabilities using trivy & OWASCP dependency check is used t scan dependencies for known vulnerabilities .
 
-after scanning the image pushed to container registries (ECR)
+* after scanning the image pushed to container registries (ECR)
 
 * NEXT , We have setup ks cluster by using terraform to manage the deployment of microservices .we have written Deployment files and service files for each microservices , where-in we define how the applications shud run inside the k8s cluster , including the desired state , replicas and other specifications of health probes , cpu and memory and restart polcies .
+
+*  As a DevOps engineer specializing in Kubernetes security.i have observed implementing strong network policies and Role-Based Access Control (RBAC) to ensure robust security measures within Kubernetes clusters.
 
 * integrated promethes and graphana for monitoring to check  the health and performance of microservices and infrastructure .
 
