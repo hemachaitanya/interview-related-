@@ -123,7 +123,7 @@
 
 ## maven life cycle phases 
 
-![hema] (./images/2.jpg)
+![hema] (https://github.com/hemachaitanya/interview-related-/blob/main/images/2.jpg)
 
 
 * validate - validate the project is correct and all necessary information is available
