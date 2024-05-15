@@ -89,6 +89,39 @@
 
 * in case any build issues during build time i will check the jenkins logs based on that isssue i will informed to respected team (it's a developer issue or qa team platform issue we will debug the issues)
 
+### how to implement one application and what's the pre-requisites to develop one application
+
+* 1. What is the architecture of your application (monolithic, microservices, serverless)?
+
+2. What are your scalability requirements?
+
+3. What are the performance expectations for your application?
+
+4. Do you have any preferences for cloud providers (AWS, Azure, Google Cloud, etc.)?
+
+5. What level of high availability is required for your application?
+
+6. What type of database and data storage needs do you have?
+
+7. What security measures are currently in place?
+
+8. Are there specific deployment pipelines or automation tools you prefer?
+
+9. What kind of monitoring and logging solutions are you using or interested in?
+
+10. Are there any specific compliance requirements or industry regulations you need to adhere to?
+
+11. Are you open to using Infrastructure as Code tools (like Terraform, CloudFormation)?
+
+12. Do you have a budget constraint for infrastructure setup and maintenance?
+
+13. What is the size and expertise of your current technical team?
+
+14. What are your disaster recovery plans and requirements?
+
+15. What are your networking requirements (load balancing, VPNs, etc.)?
+
+
 
 ### k8s errors 
 
@@ -184,6 +217,33 @@ Continuously improve pipeline reliability and efficiency based on feedback and m
 Implement security controls and best practices to ensure the integrity and confidentiality of pipeline processes and artifacts.
 Integrate security scanning tools (e.g., SonarQube, OWASP ZAP) into the pipeline to identify and remediate security vulnerabilities early in the development lifecycle.
 Ensure compliance with regulatory requirements and organizational policies related to software delivery and deployment.
+
+
+
+### data baase migration from one AWS account to another AWS account
+
+##### source account
+
+--> After taking the database snapshot, create a KMS key with the destination account ID.
+
+--> Proceed to the snapshot created earlier, click on "Actions," and choose "Copy Snapshot" with the new KMS key.
+
+--> After copying the snapshot, click on "Actions" again, and select "Share Snapshot." Add the destination account number in the sharing settings.
+
+##### Destination Account:
+
+--> In the RDS snapshots of the destination account, navigate to "Shared with Me" to locate the shared snapshot.
+
+--> Select the shared snapshot, click on "Actions," and choose "Copy Snapshot."
+
+--> Provide the necessary details according to our requirements, and click on "Copy Snapshot."
+
+--> Once copied, the snapshot will appear in the manual section.
+
+--> After a successful copy, select the snapshot, click on "Actions," and choose "Restore Snapshot."
+
+--> In this step, ensure to provide exact specifications matching those of the source database, including engine type, size of the database, region, engine version, and storage.
+
 
 
 
