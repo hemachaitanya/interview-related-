@@ -71,9 +71,9 @@
 ### day to day activities
 
 *  First i wil check my mails ,  any issues reported to my team
- & any  meetings was sheduled for which time .
+ & any  meetings was sheduled at what time .
 
-* and i  prepare my project status for synkup calls , in that call i explained about my project or tasks status , any resolving issues are discuss with them and ask some solutions .
+* and i  prepare my project status for synkup calls , in that call i explained about my project or tasks status , any un- resolving issues are discuss with them and ask some solutions .
 
 * i worked on pending tasks
 
