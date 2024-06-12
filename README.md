@@ -126,6 +126,8 @@ cpu memory utilization commands
 
 promitheous also integrated with  graphana?
 
+[prometheus and graphana integrated with k8s cluster](https://medium.com/@maheshbiradar8887/eks-monitoring-using-helm-prometheus-and-grafana-dashboard-e47093c08ece)
+
 
 
 last 10 commands for log file how u check those 
